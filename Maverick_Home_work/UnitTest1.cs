@@ -56,22 +56,4 @@ namespace Maverick_Home_work
 			return year > 1 ? 1 : Math.Round(year, 2);
 		}
 	}
-
-	public static class DebugHelper
-	{
-		public static void Info(string message)
-		{
-			//you can't modified this function
-			throw new NotImplementedException();
-		}
-	}
-
-	public static class SalaryRepo
-	{
-		internal static decimal Get(int id)
-		{
-			//you can't modified this function
-			throw new NotImplementedException();
-		}
-	}
 }
