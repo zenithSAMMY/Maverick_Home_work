@@ -2,9 +2,9 @@
 
 namespace Maverick_Home_work
 {
-	public static class DebugHelper
+	public class DebugHelper : IDebugHelper
 	{
-		public static void Info(string message)
+		public void Info(string message)
 		{
 			//you can't modified this function
 			throw new NotImplementedException();

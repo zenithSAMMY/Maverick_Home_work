@@ -2,9 +2,9 @@
 
 namespace Maverick_Home_work
 {
-	public static class SalaryRepo
+	public class SalaryRepo : ISalaryRepo
 	{
-		internal static decimal Get(int id)
+		public decimal Get(int id)
 		{
 			//you can't modified this function
 			throw new NotImplementedException();
